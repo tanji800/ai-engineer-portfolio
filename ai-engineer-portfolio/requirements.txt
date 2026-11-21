@@ -1,6 +1,7 @@
 # Core (all offline demos need only these)
 numpy
 networkx
+scipy
 pytest
 
 # Optional - real models / real indexes

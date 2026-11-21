@@ -6,7 +6,7 @@ Every module runs **offline** (NumPy only) so you can learn the mechanics first,
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install numpy networkx pytest            # core
+pip install numpy scipy networkx pytest            # core
 ./run_all.sh                                 # runs everything + tests
 ```
 
