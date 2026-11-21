@@ -1,0 +1,10 @@
+# Core (all offline demos need only these)
+numpy
+networkx
+pytest
+
+# Optional - real models / real indexes
+sentence-transformers   # real embeddings (BAAI/bge-small-en-v1.5)
+faiss-cpu               # 02_vector_search/03_faiss_compare.py
+anthropic               # optional, real LLM calls (set ANTHROPIC_API_KEY)
+lightrag-hku            # 05_graph_rag/02_lightrag_quickstart.py
